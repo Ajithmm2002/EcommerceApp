@@ -1,0 +1,85 @@
+/* Font Awesome icons */
+.fa {
+    font-size: 16px;
+}
+
+/* Top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #007bff; /* Header background color */
+    padding: 10px 0; /* Padding top and bottom */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Header box shadow */
+}
+
+/* Sticky navigation */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* Centering the logo */
+h2 {
+    margin: 0;
+    color: white; /* Header text color */
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 24px; /* Header text font size */
+    padding-left: 20px; /* Padding left for the logo */
+}
+
+/* Styling for user icon */
+.fa-user-alt {
+    margin-left: 10px; /* Margin left for the user icon */
+}
+
+/* Navigation links */
+.topnav a {
+    float: right;
+    color: white; /* Navigation links text color */
+    text-align: center;
+    padding: 14px 16px; /* Padding top and bottom, padding left and right for the navigation links */
+    text-decoration: none;
+    font-size: 16px; /* Navigation links font size */
+    transition: background-color 0.3s ease; /* Transition effect for the navigation links */
+}
+
+/* Navigation link hover effect */
+.topnav a:hover {
+    background-color: #0056b3; /* Navigation links hover background color */
+}
+
+/* Search container */
+.search-container {
+    float: right;
+    margin-top: 8px; /* Margin top for the search container */
+    margin-right: 20px; /* Margin right for the search container */
+}
+
+/* Search input */
+.search-container input[type=text] {
+    padding: 8px; /* Padding for the search input */
+    margin-top: 8px; /* Margin top for the search input */
+    margin-right: 8px; /* Margin right for the search input */
+    font-size: 16px; /* Font size for the search input */
+    border: none; /* No border for the search input */
+    border-radius: 4px; /* Border radius for the search input */
+}
+
+/* Search button */
+.search-container button {
+    padding: 8px; /* Padding for the search button */
+    margin-top: 8px; /* Margin top for the search button */
+    font-size: 16px; /* Font size for the search button */
+    border: none; /* No border for the search button */
+    border-radius: 4px; /* Border radius for the search button */
+    cursor: pointer; /* Cursor pointer for the search button */
+    background-color: #007bff; /* Search button background color */
+    color: white; /* Search button text color */
+}
+
+/* Search button hover effect */
+.search-container button:hover {
+    background-color: #0056b3; /* Search button hover background color */
+}

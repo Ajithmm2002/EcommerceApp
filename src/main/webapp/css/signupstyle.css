@@ -1,0 +1,67 @@
+@charset "ISO-8859-1";
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.signup {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px; /* Adjust the width as needed */
+}
+
+.signup input[type="text"],
+.signup input[type="email"],
+.signup input[type="number"],
+.signup input[type="password"],
+.signup select,
+.signup input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.signup input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.signup input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.whysign {
+    margin-left: 20px;
+    text-align: center;
+}
+
+.whysign h1 {
+    color: #FF0000;
+}
+
+.whysign h2 {
+    margin-top: 20px;
+    color: #555;
+}
+
+.whysign h2 a {
+    color: #0000FF;
+}

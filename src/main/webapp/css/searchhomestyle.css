@@ -1,0 +1,35 @@
+@charset "ISO-8859-1";
+.search-container {
+    float: right;
+    margin-top: 8px;
+    margin-right: 20px;
+}
+
+/* search input */
+.search-container input[type=text] {
+    padding: 8px;
+    margin-top: 8px;
+    margin-right: 8px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+}
+
+/* search button */
+.search-container button {
+    padding: 8px;
+    margin-top: 8px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #007bff; /* button background color */
+    color: white; /* button text color */
+}
+
+/* search button hover effect */
+.search-container button:hover {
+    background-color: #0056b3; /* button hover background color */
+}
+
+

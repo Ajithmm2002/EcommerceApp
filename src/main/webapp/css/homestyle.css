@@ -1,0 +1,55 @@
+.home{
+	margin-top: 25px;
+}
+
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    padding-top: 50px;
+}
+
+/* Heading styling */
+h3.alert {
+    color: #dc3545;
+    text-align: center;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-top: 20px;
+}
+
+/* Table header styling */
+thead {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Table header cells styling */
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Table body row styling */
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Table body cell styling */
+tbody td {
+    border-bottom: 1px solid #ddd;
+}
+
+/* Add to cart link styling */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,62 @@
+@charset "ISO-8859-1";
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.signup {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.signup input[type="email"],
+.signup input[type="number"],
+.signup input[type="password"],
+.signup select,
+.signup input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.signup input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.signup input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.whyforgotPassword {
+    margin-left: 20px;
+    text-align: center;
+}
+
+.whyforgotPassword h1 {
+    color: #FF0000;
+}
+
+.whyforgotPassword h4 {
+    margin-top: 20px;
+}
+
+.whyforgotPassword h5 {
+    color: #555;
+}

@@ -1,0 +1,76 @@
+
+
+@charset "ISO-8859-1";
+body{
+	   margin-top:80px;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Form Container Styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+ 
+}
+
+/* Alert Styles */
+.alert {
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Input Container Styles */
+.left-div,
+.right-div {
+    width: calc(50% - 10px);
+    margin-bottom: 20px;
+}
+
+/* Input Field Label Styles */
+.left-div h3,
+.right-div h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Input Field Styles */
+.input-style {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Number Input and Select Styles */
+input[type="number"],
+select {
+    width: calc(100% - 22px);
+}
+
+/* Horizontal Rule Styles */
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+/* Button Styles */
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
